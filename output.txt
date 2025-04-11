@@ -1,0 +1,94 @@
+Agent Response: Based on the latest data and expert analysis, here's an overview of the recent trends in homebuyer demand in light of rising interest rates:
+
+**Impact of Rising Interest Rates:**
+
+*   **Slowing Demand:** Higher mortgage rates, which have nearly doubled since 2021, have increased monthly mortgage payments, causing some potential homebuyers to step back from the market. (U.S. Bank, Raleigh Realty).
+*   **Affordability Challenges:** The combination of rising home prices and elevated mortgage rates continues to make housing affordability a significant problem. (U.S. Bank). Many are priced out of the market (Forbes, PBS News).
+*   **Shift to Renting:** Some potential first-time homebuyers are postponing their decision to buy and are continuing to rent, leading to increased competition in the rental market (Sotheby's International Realty Canada, LGT Wealth Management).
+*   **"Lock-In Effect":** Existing homeowners with low mortgage rates are hesitant to sell, reducing the supply of homes (U.S. Bank, Concreit, Data Spotlight).
+
+**Current Market Dynamics:**
+
+*   **Home Sales:** Existing home sales rebounded in February 2025, but the annualized sales pace remains historically low (U.S. Bank). Sales of previously occupied U.S. homes fell in 2024 to their lowest level in nearly 30 years (PBS News, Associated Press).
+*   **Home Prices:** While sales volume remains slow, prices are still higher than they've ever been (Bankrate).
+*   **Inventory:** The supply of homes for sale is increasing but remains low (Bankrate, Forbes).
+*   **New Construction:** February 2025 saw a rise in privately-owned housing starts, signaling some encouragement for the struggling housing market (U.S. Bank).
+*   **Slightly More Balanced Market:** The spring homebuying season is shaping up to be more favorable for home shoppers, with home prices rising more slowly, more homes on the market, and mortgage rates mostly easing (Associated Press).
+
+**Expert Predictions and Analysis:**
+
+*   **Mortgage Rate Expectations:** Experts predict mortgage rates to remain relatively high and volatile throughout 2025, generally above 6.5% (Forbes, J.P. Morgan).
+*   **Resilience in the Long Term:** Despite the challenges, some economists believe that in the long term, home prices and sales tend to be resilient to rising mortgage rates, as life events drive home purchases (Bankrate).
+*   **Regional Variations:** Housing market conditions vary significantly from place to place (Forbes, PBS News).
+
+**Factors to Watch:**
+
+*   **Inflation:** The trajectory of inflation will significantly influence mortgage rates. A continued decline in inflation is needed for mortgage rates to come down meaningfully (Bankrate).
+*   **Economic Growth and Federal Reserve Policy:** Economic conditions and Federal Reserve policy will continue to drive mortgage rates (Bankrate, Forbes).
+*   **Fiscal and Trade Policies:** Expectations for fiscal and trade policy dictated by the White House and Congress can also impact mortgage rates (Forbes, Bankrate).
+
+
+"What are the latest trends in homebuyer demand in light of rising interest rates?"
+
+
+# def compose_llm_prompt(query, target_date):
+#     try:
+#         # predicted_hpi = model.predict_price(target_date)
+#         predicted_hpi = 250.0
+#         forecast_message = (f"Our forecast for {target_date} predicts a House Price Index (HPI) of {predicted_hpi:.2f}.")
+#     except Exception as e:
+#         predicted_hpi = None
+#         forecast_message = "Forecast is currently unavailable due to missing data."
+
+#     # Generate the HPI plot dynamically.
+#     try:
+#         # Do not include the plot path in the prompt, as the dynamic plots are directly integrated in the UI.
+#         plot_reference = "Dynamic visualizations for historical HPI (blue) and predicted HPI (red) are available in the UI."
+#     except Exception as e:
+#         plot_reference = "The dynamic plot is currently unavailable."
+
+#     # Additional macroeconomic context – reference that there are dynamic plots for these factors.
+#     macro_context = ("Dynamic plots display historical trends for key macroeconomic factors such as interest rates "
+#                      "and GDP.")
+
+#     # Compose the overall prompt.
+#     prompt = (
+#            f"OpenSight is an AI assistant for Canadian home builders.\n\n"
+#     f"📈 Forecasted House Price Index (HPI): {predicted_hpi:.2f} for {target_date}.\n"
+#     f"📊 Dynamic plots below show historical HPI (blue), predicted HPI (red), interest rates, and GDP trends.\n\n"
+    
+#     f"Now, provide a summarized snapshot of the current housing market using Google search results. "
+#     f"Organize the output into bullet points.\n\n"
+    
+#     f"Here’s what I need:\n"
+#     f"- A short 1-sentence intro confirming the forecast.\n"
+#     f"- 3–5 bullet points about latest homebuyer demand and economic factors affecting sales in Canada.\n"
+#     f"- These should include trends, risks, opportunities, and any new tactics being used by successful builders.\n"
+    
+#     f"Use only relevant and up-to-date information.\n\n"
+#     f"User Query: {query}\n"
+#     )
+#     return prompt
+
+
+
+Agent Response: ---
+**🏠 Forecast Insight**
+- Our predictive model forecasts an HPI of 124.53 for this month. The current market condition shows renewed price softness, particularly in Ontario’s Greater Golden Horseshoe region.
+- You can view visualizations of HPI, interest rate, and GDP trends in the dashboard.
+
+**📈 Strategy for Builders**
+- Home sales are declining, especially after the sharp 9.8% month-over-month drop in February 2025, hitting the lowest level since November 2023, due to the ongoing trade war with the United States.
+- Price softness is evident, particularly in Ontario’s Greater Golden Horseshoe, with the MLS® HPI decreasing by 0.8% month-over-month and 1% year-over-year.
+- New listings are also down, declining 12.7% month-over-month.
+- The trade war with the U.S. is causing hesitation among potential buyers and sellers, creating market uncertainty.
+- Over one million fixed-rate mortgages are set for renewal in 2025, potentially increasing mortgage defaults amid rising interest rates.
+- First-time homebuyers are facing challenges due to rising prices and higher interest rates, often focusing on condos in Toronto and being older.
+- Multi-property owners (MPOs), including investors, are reducing their activity in the housing market.
+- A proposal to eliminate the Goods and Services Tax (GST) for first-time homebuyers on homes under $1 million is in discussion to improve affordability.
+- The federal government is investing in low-cost loans to construct rental homes in Toronto, addressing the rental housing shortage.
+
+Given the above trends:
+- Target first-time homebuyers by focusing on affordability, such as condos in Toronto or smaller homes. Highlight any potential savings from the proposed GST elimination.
+- Adjust pricing strategies to reflect the current price softness, particularly in areas like Ontario’s Greater Golden Horseshoe.
+- Offer incentives for those nearing mortgage renewals to attract clients seeking better terms and relaxed qualification rules.
