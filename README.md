@@ -51,7 +51,7 @@ The model uses **HPI as a proxy for homebuyer demand**, predicted using:
   - XGBoost Regressor
 
 These models use features like:
-- Lagged HPI, GDP, interest rate, volume, unemployment, and moving averages.
+- Lagged HPI, GDP, interest rate, S&P 500 volume (proxy for wealth), unemployment, and moving averages.
 
 ## ⚠️ Problems Faced & Limitations
 
