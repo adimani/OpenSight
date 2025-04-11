@@ -13,7 +13,9 @@ This project is heavily inspired by the mission of [OpenHouse.ai](https://openho
 Click to watch a live walkthrough of OpenSight in action:  
 
 🎥 **Demo**:  
-[Demo Video](demo.mov)
+
+https://github.com/user-attachments/assets/e914b651-be83-46e1-9821-93ed2f6c03bd
+
 
 
 ## 🔧 What It Does
